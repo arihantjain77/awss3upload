@@ -17,12 +17,12 @@ public class HighLevelMultipartUpload {
     public static void main(String[] args) throws Exception {
         
     	
-    	Regions clientRegion = Regions.AP_SOUTH_1;
+    	Regions clientRegion = Regions.AP_SOUTH_1; /* Region*/
 
-        String bucketName = "sawanashram";
+        String bucketName = "sawanashram"; /* Bucket Name*/
         String keyName;
         
-        String dir = "/Users/arihantjain/source";
+        String dir = "/Users/arihantjain/source"; /*Source dir to upload files*/
         String filePath;
         int i =0;
         File folder = new File(dir);
